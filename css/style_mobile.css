@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  min-height: 100vh;
+}
+
+.block {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.header, .footer {
+  background: #cfe2f3;
+}
+
+.sidebar {
+  background: #e2f0d9;
+}
+
+.main {
+  background: #ffffff;
+}
+
+.box4 {
+  background: #e2f0d9;
+}
+
+.box5 {
+  background: #fce5cd;
+}

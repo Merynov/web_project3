@@ -1,0 +1,25 @@
+body, html { margin: 0; padding: 0; height: 100%; font-family: Arial, sans-serif; box-sizing: border-box; }
+
+.container { display: flex; flex-direction: column; height: 100vh; border: 2px solid black; }
+
+.block { padding: 20px; border: 1px solid black; }
+
+.header { height: 80px; background-color: #cfe2f3; display: flex; align-items: center; flex-shrink: 0; }
+
+.content-wrapper { display: flex; flex: 1;  }
+
+.sidebar { width: 20%; background-color: #e2f0d9; box-sizing: border-box; }
+
+.right-column { width: 80%; display: flex; flex-direction: column; }
+
+.upper-content { display: flex; flex: 1;  }
+
+.main { flex: 1;background-color: #ffffff; }
+
+.boxes-column { width: 25%;  display: flex; flex-direction: column; }
+.box4 { flex: 1; background-color: #e2f0d9; }
+.box5 { flex: 1; background-color: #fce5cd; }
+
+.footer { height: 80px; background-color: #cfe2f3; display: flex; align-items: center; flex-shrink: 0; }
+
+.header-title, .footer-title { border: 1px solid black; background: white; padding: 5px 20px; margin-left: 20px; font-weight: bold; }
